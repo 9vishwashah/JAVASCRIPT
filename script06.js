@@ -55,19 +55,21 @@
 
 // document.addEventListener('click', ()=> console.log('grshgoi'))
 
-class Person{
-    constructor(name){
-        this.name= name;
-    }
+// class Person{
+//     constructor(name){
+//         this.name= name;
+//     }
 
-    printNameArrow(){
-        setTimeout(()=>{
-            console.log('Arrow:'+this.name);
-        }, 10000)
+//     printNameArrow(){
+//         setTimeout(()=>{
+//             console.log('Arrow:'+this.name);
+//         }, 10000)
 
-    }
+//     }
 
-}
+// }
 
-let sum6 = new Person('bob')
-sum6.printNameArrow()
+// let sum6 = new Person('bob')
+// sum6.printNameArrow()
+
+

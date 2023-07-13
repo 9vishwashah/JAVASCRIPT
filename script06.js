@@ -2,16 +2,16 @@
 //     return number >= 0
 // }
 
-// console.log(isPositive(-9));
+// //console.log(isPositive(-9));
 
 // function randomNumber(){
 //    return Math.random;
 // }
 
-// console.log(randomNumber());
+// //console.log(randomNumber());
 
 // document.addEventListener('click', function(){
-//     console.log('hey');
+//     //console.log('hey');
 // })
 
 // document.addEventListener('click', function(){
@@ -45,7 +45,7 @@
 // });
 
 // let sum6 = (a, b) => a+b;
-// console.log(sum6(2,4));
+// //console.log(sum6(2,4));
 
 // document.addEventListener('click', () => {
 //     document.body.style.background = 'red';
@@ -53,7 +53,7 @@
 
 
 
-// document.addEventListener('click', ()=> console.log('grshgoi'))
+// document.addEventListener('click', ()=> //console.log('grshgoi'))
 
 // class Person{
 //     constructor(name){
@@ -62,7 +62,7 @@
 
 //     printNameArrow(){
 //         setTimeout(()=>{
-//             console.log('Arrow:'+this.name);
+//             //console.log('Arrow:'+this.name);
 //         }, 10000)
 
 //     }

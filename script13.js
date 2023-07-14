@@ -93,6 +93,6 @@
 // const randomNumber = () => { return Math.round(Math.random() * 20) };
 // console.log(randomNumber());
 
-const converString = (str) => { return parseFloat(str) };
+// const converString = (str) => { return parseFloat(str) };
 
-console.log(converString("456.67"));
+// console.log(converString("456.67"));

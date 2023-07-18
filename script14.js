@@ -96,3 +96,13 @@
 
 // const stringCase = (msg) => msg.toUpperCase();
 // console.log(stringCase(`m`));
+let count = document.getElementById("count");
+let c = 0;
+
+function inc() {
+    c += 1;
+    count.innerText = c;
+}
+function save() {
+    console.log(c);
+}

@@ -114,7 +114,8 @@ let arrLike = {
 //     .keys(arrLike)
 // console.log(arr);
 
-let str = `hello`
-let newStr = str
-    .replace(`hi`)
-    .concat(items)
+// let str = `hello`
+// let newStr = str
+//     .replace(`hello`, `hi`)
+//     .concat(`items`)
+// console.log(newStr);

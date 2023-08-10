@@ -7,5 +7,5 @@
 //     console.log('b')
 // }
 
-let res = false||true
-console.log(res);
+// let res = false||true
+// console.log(res);

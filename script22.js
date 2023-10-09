@@ -26,7 +26,7 @@ function fibonacci(n) {
     }
     return n2
 }
-console.log(fibonacci(5));
+let n = prompt("enter no to get fibonnaci")
 
 
 

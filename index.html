@@ -1,3 +1,27 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function display() {
+            var myWin = window.open("https://youtube.com/", "myWin", innerHeight = 50, innerWidth = 50)
+        }
+        function closeWin() {
+            var closeWin = window.close()
+        }
+    </script>
+    <button onclick="display()">CLICK ME</button>
+    <button onclick="closeWin()">CLICK ME</button>
+</body>
+
+</html> -->
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,19 +29,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1 {
-            text-align: center;
-            font-size: 100px;
-            top: 45%;
-            left: 30%;
-            padding: 20%;
-        }
-    </style>
 </head>
 
 <body>
-    <h1>🎂 🌞 💙 🌎 </h1>
+    <p>This is current time according to your browser</p>
+    <p id="demo"></p>
+
+    <script>
+        setInterval(display, 1000)
+
+        function display() {
+            var d = new Date();
+            // console.log(d.getDate())
+            // document.getElementById("demo").innerHTML = d.toLocaleDateString()
+            document.getElementById("demo").innerHTML = d.toLocaleTimeString()
+        }
+
+    </script>
+ -->
+
+
+<!-- settimeout -->
+<!-- <p>This will alert msg after wait time of 3 sec</p>
+    <button onclick="setTimeout(display, 3000)">CLICK ME</button>
+
+
+    <script type="text/javascript">
+        function display() {
+            alert("Hello Javascript")
+        } -->
+
+<!-- // window.setTimeout -->
+<!-- </script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function unicodeToChar(unicode) {
+            return String.fromCharCode(unicode);
+        }
+        document.write(unicodeToChar(65))
+    </script>
+    <h1>doc</h1>
 </body>
 
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var flowers = ["2.jpeg", "3.jpeg", "download.jpeg"];
+        console.log(typeof flowers)
+        var count = 0
+
+        function slideshow(status) {
+            if (document.images) {
+                count += status
+            }
+            if (count > (flowers.length - 1)) {
+                count = 0
+            }
+            if (count < 0) {
+                count = flowers.length - 1
+            }
+            document.firstImage.src = flowers[count]
+        }
+
+    </script>
+    <img src="2.jpeg" alt="" height="100" width="100" name="firstImage">
+    <button onclick="slideshow(1)">Next</button>
+    <button onclick="slideshow(-1)">Back</button>
+</body>
+
+</html>
